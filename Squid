@@ -1,0 +1,44 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 24 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ a       a       a       a       a       a       D       a 
+      a       p       o       p       a       a       a       a 
+      a       a       a       a       p       o       p       o 
+      u       u       a       a       a       a       a       a 
+      D       a       a       p       o       p       a       a 
+      a       a       a       a       a       a       p       o 
+      p       o       u       u       0       w       0       w 
+      0       w       0       9    [a0]       a    [wa]    [a0] 
+      a    [wa]    [D0]       a    [wa]       p    [o0]       p 
+   [a9]    [a0]       a    [wa]    [a0]       a    [wa]    [a0] 
+      p    [o9]       p    [o0]       u    [u7]    [a0]       a 
+   [wa]    [a0]       a    [wa]    [D0]       a    [wa]       p 
+   [o0]       p    [a9]    [a0]       a    [wa]    [a0]       a 
+   [wa]    [a0]       p    [o9]       p    [o0]       u    [u7] 
+      f       G       f       G       f       G       f       G 
+      f       G       f       G       f       G       f       G 
+      f       G       f       G       f       G       f       G 
+      f       G       f       G       f       G       f       G 
+  [fa0]       s       S       D       f       7       7    [h0] 
+      k       x       7       7    [a0]       s       S       D 
+      f       7       7       0    [xf]    [zd]    [ka]    [pj] 
+  [oh7]    [IG]    [f0]    [f7]       G    [wh]    [G5]       h 
+   [j9]       h       j       h    [G6]       f    [d5]       7 
+   [j6]       0       h    [eG]    [f6]    [G7]    [h8]       G 
+   [he]       j    [wk]       9   [uf0]   [uf7]    [IG]   [woh] 
+  [IG5]    [oh]   [pj9]    [oh]   [IG6]    [uf]   [yd5]       9 
+  [pj6]       *    [oh]   [IG0]   [uf6]    [IG]   [oh8]    [IG] 
+  [oh8]    [pj]   [ka7]       Q       7       $       7       Q 
+      7       k       k       k       k       k       k       Z 
+      k       k       j       h       j       k       k       k 
+      k       k       k       k       k       j       h       j 
+      h       f       f    [ra]    [ra]    [ra]    [ra]    [ra] 
+   [ra]    [yD]    [ra]    [ra]    [pe]    [wo]    [pe]    [ra] 
+   [ra]    [ra]    [ra]    [ra]    [ra]    [ra]    [ra]    [pe] 
+   [wo]    [pe]    [wo]    [u0]    [u0]       6       6       6 
+      6  ]]
